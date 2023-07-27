@@ -68,7 +68,7 @@ While data has been provided for all elections, the analysis will primarily focu
 ### Gender-Based Voting Analysis
 
 Before we move onto gender domination, I present a graph that represents average number of votes received by females and males. Note that though male records are around 80k, female records are around 4k.
-![Average Votes](./output/genderDomination/avgVotes.png)
+![Average Votes](./Analysis/output/genderDomination/avgVotes.png)
 
 In this plot, we observe an intriguing trend in the Indian political landscape: women candidates consistently receive more votes on average across the nation. This indicates a significant shift in voter behavior, reflecting an increasing acceptance and support for women in politics. This trend could be a result of various factors, including growing awareness about gender equality, women empowerment initiatives, successful female leadership examples, and targeted policy initiatives catering to women.
 
