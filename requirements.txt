@@ -1,0 +1,11 @@
+pandas
+scikit-learn
+matplotlib
+tqdm
+plotly
+selenium
+undetected-chromedriver
+pyperclip
+webdriver-manager
+kaleido
+nbformat
