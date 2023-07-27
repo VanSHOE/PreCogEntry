@@ -189,6 +189,22 @@ The results of this classification task are stored in the notebook itself and pr
 | KNN                 | 0.787    | 0.82                | 0.74             | 0.78               | 0.76                | 0.84             | 0.80               |
 | Naive Bayes         | 0.667    | 0.62                | 0.88             | 0.72               | 0.79                | 0.46             | 0.58               |
 
+The difference in accuracy among these models is attributed to the nature of the algorithms themselves, the hyperparameters used, and how well these algorithms fit the specific characteristics of the data. Let's take a deeper look:
+
+1. **Logistic Regression (0.751 Accuracy)**: This model performs reasonably well, possibly because the relationship between the independent and dependent variables could be logit (can be modeled as a logistic regression). However, since logistic regression is a linear model, it may not capture more complex relationships in the data as effectively as other models.
+
+2. **Decision Tree (0.791 Accuracy)**: The decision tree performs better than logistic regression because it can handle non-linear relationships. This model creates a tree-like model of decisions, which can better capture more complex patterns in the data.
+
+3. **Random Forest (0.797 Accuracy)**: Random Forest performs slightly better than the Decision Tree. It is an ensemble method that constructs multiple decision trees and aggregates their results. This method reduces overfitting associated with individual decision trees and increases generalizability, which may account for its improved accuracy.
+
+4. **Gradient Boosting (0.804 Accuracy)**: Gradient Boosting is also an ensemble model, but it builds trees in a sequential manner, where each new tree tries to correct the errors made by the previous one. This incremental approach often results in strong performance, as reflected by its highest accuracy.
+
+5. **SVM (0.634 Accuracy)**: The lower accuracy of the SVM model might be due to the the distribution and complexity of the data which can significantly influence the SVM's performance. Though its difficult to pinpoint the exact reason, it is possible that the data is not linearly separable, which could explain the lower accuracy.
+
+6. **KNN (0.787 Accuracy)**: K-Nearest Neighbors performs reasonably well, likely due to its non-parametric nature, allowing it to make fewer assumptions about the data's structure and capture complex patterns.
+
+7. **Naive Bayes (0.667 Accuracy)**: The lower accuracy of Naive Bayes may be due to its fundamental assumption of feature independence, which is rarely true in real-life data. If some features are correlated, this model's performance might degrade.
+
 Based on the high accuracy of the models trained in this analysis, we can confidently state that the selected features - `State_Name`, `Party`, and `No_Terms` - appear to have significant predictive power when it comes to determining a candidate's likelihood of switching parties.
 
 `State_Name` plays a crucial role, potentially reflecting regional influences, cultural differences, or state-specific political dynamics that may affect a candidate's party affiliation.
