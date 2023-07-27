@@ -96,7 +96,9 @@ In this plot, we observe an intriguing trend in the Indian political landscape: 
 
 1. **Increase in NOTA vote share**:
 
-   Several regions like 'Andhra Pradesh', 'Bihar', 'Chandigarh', 'Chhattisgarh', 'Dadra & Nagar Haveli', 'Daman & Diu', 'Goa', 'Gujarat', 'Himachal Pradesh', 'Jharkhand', 'Odisha', 'Punjab', 'Tamil Nadu', 'Uttarakhand', and 'Uttar Pradesh' experienced an increase in NOTA vote share from 2014 to 2019. This could be attributed to voters' dissatisfaction with the available candidates or political parties, or increasing awareness about the NOTA option since it was introduced in 2009.
+   Several regions like 'Andhra Pradesh', 'Bihar', 'Chandigarh', 'Chhattisgarh', 'Dadra & Nagar Haveli', 'Daman & Diu', 'Goa', 'Gujarat', 'Himachal Pradesh', 'Jharkhand', 'Odisha', 'Punjab', 'Tamil Nadu', 'Uttarakhand', and 'Uttar Pradesh' experienced an increase in NOTA vote share from 2014 to 2019. This could be attributed to voters' dissatisfaction with the available candidates or political parties, or increasing awareness about the NOTA option since it was introduced in 2009. It could also be due to caste-based bias to prevent a different caste from entering the region. I wanted to analyze the candidate caste data where NOTA was highly used but it was not available for more than 60k out of 90k records which is a significant portion of the data.
+
+   Though it is difficult to find specific reasons for all the states, for Andhra Pradesh maybe [this article](https://timesofindia.indiatimes.com/city/visakhapatnam/araku-in-visakhapatnam-district-second-in-nota-votes-in-the-country-in-2019-elections/articleshow/83767012.cms) can provide some insight. The Araku parliamentary constituency in Visakhapatnam district stood second in the country in terms of the number of NOTA votes polled in 2019 general elections. The low literacy rate among the tribal population and lack of awareness over usage of electronic voting machines may have contributed to the higher number of NOTA votes. Some voters might have also been pressing the wrong button due to lack of knowledge over the working mechanism of EVMs. Similar cases might have happened in other constituencies too and might have gone unnoticed.
 
 2. **Decrease in NOTA vote share**:
 
@@ -114,7 +116,7 @@ The incumbency rates for different regions of India, analyzed across all electio
 
 #### All Elections
 
-On the higher end of the incumbency spectrum, regions like Lakshadweep (71.43%) and A & N Islands (57.14%) show a marked preference for retaining their incumbents, suggesting strong voter loyalty or satisfaction with the status quo. In contrast, areas like Jammu & Kashmir (28.21%) have demonstrated a proclivity towards electing new candidates over incumbents, hinting at possible dissatisfaction with existing leadership or a desire for change.
+On the higher end of the incumbency spectrum, regions like Lakshadweep (71.43%) and A & N Islands (57.14%) show a marked preference for retaining their incumbents, suggesting strong voter loyalty or satisfaction with the status quo. In contrast, areas like Jammu & Kashmir (28.21%) have demonstrated a proclivity towards electing new candidates over incumbents, hinting at possible dissatisfaction with existing leadership or a desire for change. It be a reflection of the volatile political climate and the desire for change among the electorate especially due to the ongoing conflict in the Northern borders.
 
 In the middle of the spectrum, states like West Bengal (49.52%), Goa (38.89%), and Uttarakhand (40%) suggest a more balanced or cyclical political landscape where incumbents and newcomers both have reasonable chances of success.
 
@@ -122,8 +124,7 @@ In the middle of the spectrum, states like West Bengal (49.52%), Goa (38.89%), a
 
 Comparatively, in the last five elections, Lakshadweep has seen a decrease in its incumbency rate to 40%, indicating a potential shift in voter sentiment. Similarly, Jammu & Kashmir maintains its low incumbency rate at 30%, underscoring a consistent trend of favoring fresh faces in political positions.
 
-However, certain regions have shown a substantial rise in incumbency rates over the last five elections. For instance, Goa's incumbency rate increased to 50%, suggesting growing support for incumbent leaders. Other states like Gujarat (52.31%) and Maharashtra (45%) also showcase an upward trend in their incumbency rates.
-
+However, certain regions have shown a substantial rise in incumbency rates over the last five elections. For instance, Goa's incumbency rate increased to 50%, suggesting growing support for incumbent leaders. Other states like Gujarat (52.31%) and Maharashtra (45%) also showcase an upward trend in their incumbency rates. For Gujarat, it could be possible that this incumbency is due to high economic growth plus having a central leader from the state [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7938696/) [2](https://www.csis.org/analysis/energy-transition-strategies-gujarats-low-carbon-development-pathway).
 Conversely, Tamil Nadu's incumbency rate has dwindled to 21.03% in the recent elections, indicating a stronger inclination towards new leaders.
 
 #### Comparative Analysis
