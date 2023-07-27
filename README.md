@@ -98,6 +98,36 @@ Comparing the overall data with the data from the last five elections, a nuanced
 
 In some areas, voting patterns appear to have remained relatively stable across all elections and the last five, such as Jammu & Kashmir, with consistently low incumbency rates, and West Bengal, with nearly unchanged rates.
 
+### Literacy Analysis
+
+Analyzing the education level of the representatives in each state can provide some insight into the education landscape and its potential influence on politics.
+
+### Binary Analysis
+
+In the binary analysis, a score of 1 was given to any representative who is not illiterate, while a score of 0 was given to those who are illiterate. In this analysis, Nagaland, Sikkim, and Lakshadweep scored 100, indicating that all representatives from these states are literate.
+
+There's a high literacy rate among representatives across the board, with even the lowest scoring state (Telangana - 32%) having a significant proportion of literate representatives. This suggests a general trend of literacy among political representatives.
+
+### Scaled Analysis
+
+The scaled analysis, on the other hand, provided more granularity by assigning different scores for different education levels (from "Illiterate" to "Doctorate"). Here, the states of Nagaland and Manipur scored exceptionally high, with rates of 100 and 99.63, respectively, suggesting a high proportion of representatives with advanced degrees in these regions. In contrast, states like Daman & Diu and Gujarat had lower scores, hinting at a lower proportion of highly-educated representatives.
+
+Interestingly, when comparing the binary and scaled analysis, some states like Nagaland and Sikkim scored high on both, suggesting that not only are their representatives literate, they also tend to have advanced degrees.
+
+On the other hand, some states such as Telangana have a high literacy rate in the binary analysis (indicating most representatives are literate) but score significantly lower in the scaled analysis. This could imply that while the majority of representatives are literate, they may not have advanced education.
+
+### Comparative Analysis
+
+When comparing the binary and scaled analyses, we can draw a few conclusions:
+
+1. **High Literacy & High Education**: States such as Nagaland, Sikkim, and Manipur score high in both analyses, indicating a high level of both literacy and advanced education among their representatives.
+
+2. **High Literacy & Varied Education**: States like Uttar Pradesh and Gujarat, despite having a high literacy rate, show a more significant variance in their education levels. This could potentially signify that while literacy is widespread, access to advanced education may be more inconsistent.
+
+3. **Varied Literacy & Education**: Some states, like Telangana, score low in both analyses, indicating lower levels of literacy and advanced education among their representatives.
+
+The data highlights the diversity of the educational landscape across the states of India, with variations in both literacy and education levels among political representatives. However, this analysis does not provide insight into the reasons for these variations, which could be influenced by various factors, including state education policies, economic conditions, cultural factors, and more.
+
 # Classification Analysis
 
 This project also includes a classification task, conducted in the Jupyter notebook named `classification.ipynb`. In this task, we aim to predict whether a candidate is a 'Turncoat', meaning they have switched parties. In the ever-evolving landscape of politics, party loyalty is an intriguing aspect to study. Candidates switching their allegiances, known as 'Turncoats', often pose intriguing questions regarding political behavior and strategy. This analysis aims to unravel the factors that might influence such decisions, thus providing a deeper understanding of the political dynamics at play.
