@@ -12,7 +12,9 @@
 
 Welcome to the Indian Elections Analysis project. This is an exhaustive research study examining various aspects of the Indian electoral process. The purpose of this initiative is to cast light on patterns and behaviours manifested by electors, candidates, and political parties across the nation, which may have substantial implications for the democratic process.
 
-# Analysis
+Running the codebase is fairly simple. The project is divided into two parts - Analysis and Classification. The Analysis part is further divided into five subparts, each of which is contained in a Jupyter notebook. The Classification part is also contained in a Jupyter notebook. The code for each of these notebooks is self-contained and can be run independently by just clicking `Run All` in any jupyter client. Note that analysis involving randomization may produce slightly different results each time it is run and may differ from the results presented in this document.
+
+## Analysis
 
 This study consists of five distinct analyses:
 
@@ -37,6 +39,11 @@ Image Files (.png): These are the heatmaps generated from the text files. They p
 While data has been provided for all elections, the analysis will primarily focus on insights drawn from the 2019 and 2014 elections for the sake of brevity apart from incumbency since this feature requires a range of elections to be considered.
 
 ### Gender-Based Voting Analysis
+
+Before we move onto gender domination, I present a graph that represents average number of votes received by females and males. Note that though male records are around 80k, female records are around 4k.
+![Average Votes](./output/genderDomination/avgVotes.png)
+
+In this plot, we observe an intriguing trend in the Indian political landscape: women candidates consistently receive more votes on average across the nation. This indicates a significant shift in voter behavior, reflecting an increasing acceptance and support for women in politics. This trend could be a result of various factors, including growing awareness about gender equality, women empowerment initiatives, successful female leadership examples, and targeted policy initiatives catering to women.
 
 1. **Preference for Male Candidates**:
 
@@ -102,13 +109,13 @@ In some areas, voting patterns appear to have remained relatively stable across 
 
 Analyzing the education level of the representatives in each state can provide some insight into the education landscape and its potential influence on politics.
 
-### Binary Analysis
+#### Binary Analysis
 
 In the binary analysis, a score of 1 was given to any representative who is not illiterate, while a score of 0 was given to those who are illiterate. In this analysis, Nagaland, Sikkim, and Lakshadweep scored 100, indicating that all representatives from these states are literate.
 
 There's a high literacy rate among representatives across the board, with even the lowest scoring state (Telangana - 32%) having a significant proportion of literate representatives. This suggests a general trend of literacy among political representatives.
 
-### Scaled Analysis
+#### Scaled Analysis
 
 The scaled analysis, on the other hand, provided more granularity by assigning different scores for different education levels (from "Illiterate" to "Doctorate"). Here, the states of Nagaland and Manipur scored exceptionally high, with rates of 100 and 99.63, respectively, suggesting a high proportion of representatives with advanced degrees in these regions. In contrast, states like Daman & Diu and Gujarat had lower scores, hinting at a lower proportion of highly-educated representatives.
 
@@ -116,7 +123,7 @@ Interestingly, when comparing the binary and scaled analysis, some states like N
 
 On the other hand, some states such as Telangana have a high literacy rate in the binary analysis (indicating most representatives are literate) but score significantly lower in the scaled analysis. This could imply that while the majority of representatives are literate, they may not have advanced education.
 
-### Comparative Analysis
+#### Comparative Analysis
 
 When comparing the binary and scaled analyses, we can draw a few conclusions:
 
