@@ -11,4 +11,3 @@ pyperclip
 webdriver-manager
 kaleido
 nbformat
-matplotlib
