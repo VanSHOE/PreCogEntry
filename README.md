@@ -21,6 +21,8 @@ The requirements will also be listed here:
 
 ```
 pandas
+geopandas
+descartes
 scikit-learn
 matplotlib
 tqdm
