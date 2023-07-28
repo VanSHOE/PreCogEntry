@@ -1,12 +1,20 @@
 # Output Directory Structure
 
 ```
-│
-└───output
-    ├───genderDomination
-    ├───IncumbencyAnalysis
-    └───notaAnalysis
+├───Analysis
+│   ├───output
+│   │   ├───classification
+│   │   ├───genderDomination
+│   │   │   └───geoPandasOutput
+│   │   ├───IncumbencyAnalysis
+│   │   │   └───geoPandasOutput
+│   │   └───notaAnalysis
+│   │       └───geoPandasOutput
+│   └───shapefile
+└───PaperReading
 ```
+
+In PaperReading directory, there is a separate README file for the analysis of the paper. Everything else is in this README file.
 
 In the 'output' directory, you'll find three subdirectories - 'genderDomination', 'IncumbencyAnalysis', and 'notaAnalysis'. Each of these directories contains two types of files:
 
@@ -49,8 +57,6 @@ matplotlib
 Welcome to the Indian Elections Analysis project. This is an exhaustive research study examining various aspects of the Indian electoral process. The purpose of this initiative is to cast light on patterns and behaviours manifested by electors, candidates, and political parties across the nation, which may have substantial implications for the democratic process.
 
 Running the codebase is fairly simple. The project is divided into two parts - Analysis and Classification. The Analysis part is further divided into five subparts, each of which is contained in a Jupyter notebook. The Classification part is also contained in a Jupyter notebook. The code for each of these notebooks is self-contained and can be run independently by just clicking `Run All` in any jupyter client. Note that analysis involving randomization may produce slightly different results each time it is run and may differ from the results presented in this document.
-
-The analysis of the paper is in a separate README file in the `PaperReading` directory. Everything else is in this README file.
 
 ## Analysis
 
