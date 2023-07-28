@@ -177,7 +177,7 @@ These features were selected as a subset of the original data based on rigorous 
 
 By predicting 'Turncoat' status based on these features, this classification task helps to shed light on the patterns and behaviors that may influence a candidate's likelihood to switch parties.
 
-The results of this classification task are stored in the notebook itself and presented down below, and the code for the task is also included in the notebook.
+The results of this classification task are stored in the notebook itself and presented down below, and the code for the task is also included in the notebook. Please note that the results below are a snapshot of the results obtained from one run of the code. Due to the random nature of some of the algorithms, the results may vary slightly each time the code is run which may also change the current results being shown in the notebook.
 
 | Model               | Accuracy | Precision (Class 0) | Recall (Class 0) | F1-score (Class 0) | Precision (Class 1) | Recall (Class 1) | F1-score (Class 1) |
 | ------------------- | -------- | ------------------- | ---------------- | ------------------ | ------------------- | ---------------- | ------------------ |
@@ -205,12 +205,22 @@ The difference in accuracy among these models is attributed to the nature of the
 
 7. **Naive Bayes (0.667 Accuracy)**: The lower accuracy of Naive Bayes may be due to its fundamental assumption of feature independence, which is rarely true in real-life data. If some features are correlated, this model's performance might degrade.
 
+### Feature Importance
+
+Feature importances have also been calculated for `Decision Tree`, `Random Forest`, `Gradient Boosting` and `Logistic Regression` models and are shown in the notebook. Though we will only consider the importance results from the `Gradient Boosting` model for the sake of brevity and because it has the highest accuracy, the results from other models are also included in the notebook.
+
+| Feature    | Importance Score |
+| ---------- | ---------------- |
+| Party      | 0.481            |
+| No_Terms   | 0.500            |
+| State_Name | 0.019            |
+
 Based on the high accuracy of the models trained in this analysis, we can confidently state that the selected features - `State_Name`, `Party`, and `No_Terms` - appear to have significant predictive power when it comes to determining a candidate's likelihood of switching parties.
 
-`State_Name` plays a crucial role, potentially reflecting regional influences, cultural differences, or state-specific political dynamics that may affect a candidate's party affiliation.
+`State_Name` plays a crucial role, potentially reflecting regional influences, cultural differences, or state-specific political dynamics that may affect a candidate's party affiliation. The low importance score of 0.019 for State_Name suggests that 'turncoat' behavior is more influenced by factors like party affiliation and the number of terms served.
 
-`Party` can also be a decisive factor. It is plausible that the candidate's alignment with party ideologies, the party's popularity, or its stance on specific issues can influence their decision to remain or switch.
+`Party` can also be a decisive factor. It is plausible that the candidate's alignment with party ideologies, the party's popularity, or its stance on specific issues can influence their decision to remain or switch. It had a feature importance score of 0.481, indicating it played a significant role in the model's predictions. For instance, a candidate might switch parties if they believe another party is more popular among their constituents, or if they feel their personal beliefs are no longer aligned with their original party due to significant changes in party's policies or leadership.
 
-`No_Terms` is particularly noteworthy, given its positive correlation of 0.211 with the 'Turncoat' status. This indicates that as the number of terms a candidate has served increases, so does the likelihood of them switching parties. This could suggest that candidates with more terms might be exploring new strategies for political success, and switching parties could be one such strategy. It could also indicate that experienced politicians are more confident in their ability to retain their voter base despite a party switch.
+`No_Terms` is particularly noteworthy, given its positive correlation of 0.211 with the 'Turncoat' status and an importance score of 0.5 for predicting the same. This indicates that as the number of terms a candidate has served increases, so does the likelihood of them switching parties. This could suggest that candidates with more terms might be exploring new strategies for political success, and switching parties could be one such strategy. It could also indicate that experienced politicians are more confident in their ability to retain their voter base despite a party switch.
 
 This analysis provides a data-driven foundation for understanding the phenomenon of party switching. It could be an instrumental tool for political parties to anticipate and strategize for such events. Further, by improving our understanding of political behavior, these insights can also contribute to a more informed and engaged electorate.
