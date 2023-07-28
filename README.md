@@ -31,6 +31,7 @@ pyperclip
 webdriver-manager
 kaleido
 nbformat
+matplotlib
 ```
 
 ## Introduction
@@ -126,6 +127,12 @@ Comparatively, in the last five elections, Lakshadweep has seen a decrease in it
 
 However, certain regions have shown a substantial rise in incumbency rates over the last five elections. For instance, Goa's incumbency rate increased to 50%, suggesting growing support for incumbent leaders. Other states like Gujarat (52.31%) and Maharashtra (45%) also showcase an upward trend in their incumbency rates. For Gujarat, it could be possible that this incumbency is due to high economic growth plus having a central leader from the state [1](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7938696/) [2](https://www.csis.org/analysis/energy-transition-strategies-gujarats-low-carbon-development-pathway).
 Conversely, Tamil Nadu's incumbency rate has dwindled to 21.03% in the recent elections, indicating a stronger inclination towards new leaders.
+
+#### Change in incumbency factor (Devansh Manu):
+
+In fact if we just talk about the 2019 Elections, [this thesis](https://cdn.iiit.ac.in/cdn/precog.iiit.ac.in/Publications_files/DevanshManu_Thesis_Elections2019.pdf) pg 49-50 sheds light on the fact that in 2019 incumbency turned even higher. The thesis notes that incumbency has indeed proven to be a distinguishing factor in the 2014 and 2019 Indian general elections. In 2014, the elections were marked by a robust anti-incumbency sentiment against the governing Congress party, with allegations of corruption and soaring inflation rates fueling public dissatisfaction. Conversely, the 2019 elections demonstrated strong pro-incumbency favor towards the then-ruling Narendra Modi government.
+
+The thesis also notes that this pattern of incumbency preference has been evident in the country since 1998. For instance, Atal Bihari Vajpayee from the BJP served two terms, initially from March 1998 to October 1999, and then from October 1999 to May 2004. Subsequently, Manmohan Singh from the INC held the office for two terms, from May 2004 to May 2009, and from May 2009 to May 2014. Lastly, Narendra Modi has been in power for two consecutive terms, starting from May 2014 to May 2019, and from May 2019 onwards.
 
 #### Comparative Analysis
 
