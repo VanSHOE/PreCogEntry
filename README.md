@@ -8,6 +8,14 @@
     └───notaAnalysis
 ```
 
+In the 'output' directory, you'll find three subdirectories - 'genderDomination', 'IncumbencyAnalysis', and 'notaAnalysis'. Each of these directories contains two types of files:
+
+Text Files (.txt): These files contain the raw data used to create the heatmaps. They represent the data in a structured, text-based format that can be easily read and processed by various programs.
+
+Image Files (.png): These are the heatmaps generated from the text files. They provide a visual representation of the data, making it easier to identify patterns and trends.
+
+There is a separate directory for geoPanda plots. They are essentially the same as the heatmaps but are generated using the geoPandas library for better visual representation.
+
 ## Requirements
 
 The required libraries have been listed in the `requirements.txt` file. To install them, run the following command in your terminal:
@@ -58,15 +66,9 @@ This study consists of five distinct analyses:
 
 5. **Scaled Literacy Analysis**: Building on the binary literacy analysis, this study further categorizes the candidates into more detailed literacy levels such as 'Illiterate', '8th pass', 'Graduate', and more. This allows us to understand the distribution of candidates' educational qualifications in each state, presenting a clearer picture of the educational diversity among candidates. `Literacy_Analysis.ipynb` contains the code for this analysis.
 
-In the 'output' directory, you'll find three subdirectories - 'genderDomination', 'IncumbencyAnalysis', and 'notaAnalysis'. Each of these directories contains two types of files:
-
-Text Files (.txt): These files contain the raw data used to create the heatmaps. They represent the data in a structured, text-based format that can be easily read and processed by various programs.
-
-Image Files (.png): These are the heatmaps generated from the text files. They provide a visual representation of the data, making it easier to identify patterns and trends.
-
 ## Insights
 
-While data has been provided for all elections, the analysis will primarily focus on insights drawn from the 2019 and 2014 elections for the sake of brevity apart from incumbency since this feature requires a range of elections to be considered.
+While data has been provided for all elections, the analysis will primarily focus on insights drawn from the 2019 and 2014 elections for the sake of brevity apart from incumbency since this feature requires a range of elections to be considered. Please do note that the analysis refers to the output files in the `output` directory. The output plots can't be shown in the readme file due to the size and quantity of the plots.
 
 ### Gender-Based Voting Analysis
 
@@ -217,6 +219,7 @@ The difference in accuracy among these models is attributed to the nature of the
 ### Feature Importance
 
 Feature importances have also been calculated for `Decision Tree`, `Random Forest`, `Gradient Boosting` and `Logistic Regression` models and are shown in the notebook. Though we will only consider the importance results from the `Gradient Boosting` model for the sake of brevity and because it has the highest accuracy, the results from other models are also included in the notebook.
+All feature importance score graphs are in the `classification` directory in the output folder.
 
 | Feature    | Importance Score |
 | ---------- | ---------------- |
